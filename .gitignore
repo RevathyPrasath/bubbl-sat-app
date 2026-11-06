@@ -1,0 +1,13 @@
+# Environment files — NEVER commit these
+apps/api/.env.local
+apps/api/.env
+apps/mobile/.env
+apps/mobile/.env.local
+
+# Dependencies
+node_modules/
+apps/api/.next/
+apps/mobile/.expo/
+
+# OS
+.DS_Store
